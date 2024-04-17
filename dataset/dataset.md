@@ -1,0 +1,9 @@
+### Dataset Description
+
+The dataset provided is focused on monitoring and analysing energy consumption and environmental conditions around production CNC machines.\
+Here’s a breakdown of the components:
+- **cnc average kw**: This column represents the average power consumption (in kilowatts) of the production CNC machines over a time batch of 10 minutes. It provides insight into the energy usage of the CNC machines during operation.
+- **work stations average kw**: Similar to "cnc average kw," this column denotes the average power consumption (in kilowatts) of the instruments within the CNC working station during the same 10-minute time batch. It offers a more detailed view of energy usage within the CNC workstation.
+- **Temperature columns** (temp CNC 1 to temp CNC 10): These columns contain temperature readings captured by sensors placed in proximity to the CNC machines. Each column likely corresponds to a specific location or aspect within the CNC environment. For instance, temperatures might be measured near critical components, cooling systems, or different zones within the production area.
+- **Humidity columns** (humidity CNC 1 to humidity CNC 10): Similarly, these columns provide humidity measurements obtained from sensors positioned near the CNC machines. Humidity levels can influence machine performance, material behaviour, and overall environmental comfort and safety.
+- **Outside environment columns** (Temp outside, press mm hg outside, humidity outside, windspeed outside, visibility outside, dewpoint outside): These columns pertain to environmental conditions outside the facility where the CNC machines are located. They include temperature, atmospheric pressure, humidity, wind speed, visibility, and dew point measurements. Monitoring these factors can help assess how external conditions may impact CNC operations and the overall manufacturing environment.
